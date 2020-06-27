@@ -1,0 +1,27 @@
+
+
+需要模拟登录的爬虫
+
+流程：
+1.踩点网站 --- 2.分析数据加载流程 --- 3.需要登录 --- 4.模拟登录流程分析 --- 5.验证码 --- 6.分析验证码验证流程 --- 7.破解验证码（代码） --- 8.构造登录接口参数 --- 9.破解登录加密参数 --- 10.伪造登录请求 --- 11.获取登录成功的会话/状态 --- 12.数据获取/登录后才给的数据/登录后才能进行的操作/应用权限。。。。
+
+
+登录前：
+请求 上下文/状态 模拟到位  -- 检查验证码 -- sign_in/显示验证码
+
+《知乎》
+
+验证码提交：
+content-type: multipart/form-data; boundary=----WebKitFormBoundary73ogKWFBbQ9ITJvB
+input_text: {"img_size":[200,44],"input_points":[[66.39999389648438,26],[118.39999389648438,27]]}
+
+
+tensorflow:
+anoconda python3.6
+
+pip3 install upgrade tensorflow
+
+HMAC:
+key:d1b964811afb40118a12068ff74a12f4
+sha1 -- func
+
